@@ -3,7 +3,7 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "",
+  SESSION_ID: process.env.SESSION_ID || "INCONNU~XD~H14wHJ5S#JNeI1KK7xJUQEGYq6hMmjb6oLWODjEFizxz4x9BpdP0",
   PREFIX: process.env.PREFIX || '.',
    BOT_NAME: process.env.BOT_NAME || "INCONNU XD V2",
    BOT: process.env.BOT || "hello 👋",
@@ -18,8 +18,8 @@ const config = {
   STATUS_READ_MSG: process.env.STATUS_READ_MSG || 'Status Viewed by joel-Md',
   VOICE_CHAT_BOT: process.env.VOICE_CHAT_BOT !== undefined ? process.env.VOICE_CHAT_BOT === 'true' : false,
   AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT !== undefined ? process.env.AUTO_STATUS_REACT === 'true' : true,
-  ANTILINK: process.env.ANTILINK !== undefined ? process.env.ANTILINK === 'true' : false,
-  ANTI_LEFT: process.env.ANTI_LEFT !== undefined ? process.env.ANTI_LEFT === 'true' : true,
+  ANTILINK: process.env.ANTILINK !== undefined ? process.env.ANTILINK === 'false' : false,
+  ANTI_LEFT: process.env.ANTI_LEFT !== undefined ? process.env.ANTI_LEFT === 'false' : true,
   AUTO_STICKER: process.env.AUTO_STICKER !== undefined ? process.env.AUTO_STICKER === 'true' : false,
   AUTO_READ: process.env.AUTO_READ !== undefined ? process.env.AUTO_READ === 'true' : false,
   AUTO_TYPING: process.env.AUTO_TYPING !== undefined ? process.env.AUTO_TYPING === 'true' : false,
@@ -40,7 +40,7 @@ const config = {
   MODE: process.env.MODE || "public",
   DELETED_MESSAGES_CHAT_ID: process.env.DELETED_MESSAGES_CHAT_ID || "554488138425@s.whatsapp.net",
   OWNER_NAME: process.env.OWNER_NAME || "INCONNU BOY",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "554488138425",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "18292748112",
   SUDO_NUMBER: process.env.SUDO_NUMBER || "554488138425",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
